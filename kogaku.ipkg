@@ -1,0 +1,44 @@
+package Kogaku
+-- version =
+authors = "Andor Penzes"
+-- maintainers =
+-- license =
+-- brief =
+readme = README.md
+-- homepage =
+sourceloc = github.com/andorp/koogaku
+-- bugtracker =
+
+-- packages to add to search path
+depends = base
+
+-- modules to install
+-- modules =
+
+-- main file (i.e. file to load at REPL)
+main = Main.idr
+
+-- name of executable
+-- executable =
+-- opts =
+sourcedir = "src"
+builddir = .build
+-- outputdir =
+
+-- script to run before building
+-- prebuild =
+
+-- script to run after building
+-- postbuild =
+
+-- script to run after building, before installing
+-- preinstall =
+
+-- script to run after installing
+-- postinstall =
+
+-- script to run before cleaning
+-- preclean =
+
+-- script to run after cleaning
+-- postclean =
